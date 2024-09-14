@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    list-style: none;
+}
+
+#main_header {
+    background-color: rgb(155, 155, 254);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    height: 12vh;
+}
+
+#logo {
+    font-family: 'Yusei Magic', sans-serif;
+    margin: 0;
+    color: black;
+    font-size: 400%;
+}
+
+
+#nav_ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+#nav_ul li {
+    padding: 8px;
+    margin: 16px;
+}
+
+#wisdom {
+    font-family: 'Yusei Magic', sans-serif;
+    text-align: center;
+    font-size: 300%;
+}
+
+#Author{
+    font-family: 'Yusei Magic', sans-serif;
+    text-align: center;
+}
+
+#Welcome{
+    text-align: left;
+}
+
+body > main article {
+    width: 90%;
+    margin: auto;
+    font-size: 1em; /* Adjusted from 'auto' to a valid size */
+}
+
+#main_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main_content > div {
+    width: 90%;
+}
+
+#nav_ul> li > a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+    font-size: 120%;
+}
+
+
+body > footer {
+    background-color: rgb(155, 155, 254);
+    color: aliceblue;
+    text-align: left;
+}
+
+nav > ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Styling for the aside */
+aside {
+    background-color: rgb(155, 155, 254);
+    padding: 12px;
+    color: white;
+    font-size: 120%;
+}
+
+#epic_ul {
+    text-decoration: none; /* Removes the underline from links */
+    list-style: none;
+    color: inherit; /* Keeps link color the same as the surrounding text color */
+    font-size: 30px; /* Sets font size for the links */
+}
+
+aside a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+body > footer {
+    display: flex;
+    padding: 20px;
+    font-size: 18px;
+}
+#footer_ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer_ul> div > li  {
+    margin-left: 20px;
+
+
+}
+#footer_ul> div > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+form{
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+}
